@@ -3,11 +3,23 @@
 }
 .grid-container {
 display: grid;
-grid-template-columns: 25% 25% 25% 25%;
+grid-template-columns: repeat(4, 25%);
+grid-template-rows: 250px;
 }
 .grid-item {
     height: 200px;
-    background-color: brown;
     margin: 10px;
     border-radius: 5px;
+}
+.grid-item:nth-child(1){
+    background-color: blueviolet;
+}
+.grid-item:nth-child(2){
+    background-color: rgb(161, 91, 227);
+}
+.grid-item:nth-child(3){
+    background-color: blueviolet;
+}
+.grid-item:nth-child(4){
+    background-color: rgb(161, 91, 227);
 }

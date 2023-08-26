@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box ;
+}
+body{
+
+}
+.flex-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.flex-child{
+    width: 99px;
+    height: 150px;
+    background-color: brown;
+}

@@ -38,13 +38,16 @@
     
 }
 .paragraphContainer p:nth-child(1){
+    flex-grow: 1;
     min-height: 300px;
     
 }
 .paragraphContainer p:nth-child(2){
+    flex-grow: 1;
     min-height: 300px;
 }
 .paragraphContainer p:nth-child(3){
+    flex-grow: 3;
     min-height: 300px;
 }
 nav ul{

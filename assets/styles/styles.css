@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.grid-container {
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+}
+.grid-item {
+    height: 200px;
+    background-color: brown;
+    margin: 10px;
+    border-radius: 5px;
+}
